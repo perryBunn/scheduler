@@ -18,7 +18,7 @@ This class encapsulates the information necessary to describe the persons work t
 |                |      |         |                           |                                                              |
 |                |      |         |                           |                                                              |
 
- ###  Name
+###  Name
 
 ### Shift
 

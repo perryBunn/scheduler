@@ -1,0 +1,11 @@
+<h1>Scheduler</h1>
+<h2>Floors</h2>
+{% if floor_list %}
+    <ul>
+    {% for floor in floor_list %}
+        <li><a href="/{{ floor.short_name }}/">{{ floor.short_name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No Floors are available.</p>
+{% endif %}
